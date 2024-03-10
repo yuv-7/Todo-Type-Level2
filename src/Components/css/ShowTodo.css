@@ -1,0 +1,88 @@
+/* background-color: #ffb443;
+text-shadow: 0 0 8px #ff7a55;
+border: 3px solid #ec9512;
+box-shadow: 0 0 8px #ec9512; */
+
+.container{
+    width: 100%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .demoTitle{
+    color: #ffb443;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container .task-header{
+    width: 49vw;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 2px solid white;
+
+    padding:0 15px;
+    padding-bottom: 3px;
+}
+
+.container .task-header span{
+    font-size: 20px;
+    color: #ffb443;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s linear;
+    /* text-shadow: 0 0 2px #ff7a55; */
+}
+
+.container .task-header span:hover{
+    color: #f9bb35;
+    text-decoration: underline;
+}
+
+.container .todos-container{
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .todos-container .todo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    border-bottom: 2px solid #e5dcce;
+    margin: 5px;
+}
+
+.container .todos-container .todo .left-todo-side {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container .todos-container .todo .left-todo-side .strike{
+    text-decoration: line-through;
+}
+
+.container .todos-container .todo .left-todo-side input{
+    margin-right: 10px;
+}
+
+.container .todos-container .todo .right-todo-side button{
+    border-radius: 15px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    background-color: #ff7a55;
+    transition: all .2s linear;
+}
+
+.container .todos-container .todo .right-todo-side button:hover{
+    background-color: #f9bb35;
+    transform:scale(1.1);
+}

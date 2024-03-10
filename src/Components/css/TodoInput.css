@@ -1,0 +1,67 @@
+.form{
+    width: 100%;
+    height: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 8vh;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px #ec9512;
+
+}
+
+.form .todo-section{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.form .todo-section .todoInput{
+    width: 40%;
+    height: 8vh;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    margin-right: 10px;
+    border: 3px solid #ffb649;
+    box-shadow: 0 0 4px #ffb649;
+
+    padding-left: 20px;
+    font-weight: 600;
+    color:#ec9512 ;
+    font-size: 18px;
+
+}
+
+.form .todo-section .submit{
+    width: 130px;
+    height: 8vh;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid #ffb649;
+    box-shadow: 0 0 4px #ffb649;
+    font-size: 18px;
+    font-weight: 600;
+    color:#ffb649 ;
+    cursor: pointer;
+}
+
+.form .todo-section .submit:hover{
+    background-color: #ffb649;
+    color: white;
+}
+
+
